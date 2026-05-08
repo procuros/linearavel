@@ -1,5 +1,5 @@
 {
-    "name": "glhd/linearavel",
+    "name": "procuros/linearavel",
     "description": "",
     "keywords": [
         "laravel"
@@ -13,7 +13,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "illuminate/support": "^9|^10|11.x-dev|dev-master",
+        "illuminate/support": "11.x-dev|12.x|dev-master",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.8",
         "spatie/laravel-data": ">=4.0.0, <4.3.0",
