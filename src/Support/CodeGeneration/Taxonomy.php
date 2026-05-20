@@ -70,12 +70,16 @@ class Taxonomy
 	
 	public function pendingRequest(): Stringable
 	{
+		$namespace = str(static::ns('Requests\\Pending', prefix: true))
+			->append(str($this->kind)->plural()->studly())
+			->finish('\\');
+
 		return $this->name
 			->studly()
 			->prepend('Pending')
 			->append(str($this->kind)->singular()->studly())
 			->finish('Request')
-			->prepend(str(static::ns('Requests\\Pending', prefix: true)));
+			->prepend($namespace);
 	}
 	
 	public function response(): Stringable

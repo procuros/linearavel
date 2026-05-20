@@ -16,7 +16,7 @@
         "illuminate/support": "11.x-dev|12.x|dev-master",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.8",
-        "spatie/laravel-data": ">=4.0.0, <4.3.0",
+        "spatie/laravel-data": "^4.23.0",
         "webonyx/graphql-php": "^15.10",
         "nikic/php-parser": "^5.0",
         "saloonphp/saloon": "^3.0"
