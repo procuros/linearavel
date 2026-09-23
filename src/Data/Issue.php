@@ -9,7 +9,6 @@ use Glhd\Linearavel\Data\Enums\IntegrationService;
 use Illuminate\Support\Collection;
 use Spatie\LaravelData\Attributes\WithCast;
 use Spatie\LaravelData\Casts\EnumerableCast;
-use Spatie\LaravelData\Casts\IterableItemCast;
 use Spatie\LaravelData\Data;
 use Spatie\LaravelData\Optional;
 
